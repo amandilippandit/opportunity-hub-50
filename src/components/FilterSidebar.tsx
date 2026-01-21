@@ -116,7 +116,6 @@ export function FilterSidebar({
                       checked={selectedTypes.includes(type.value)}
                       onCheckedChange={() => toggleType(type.value)}
                     />
-                    <span className={cn('w-2.5 h-2.5 rounded-full shrink-0', type.color)} />
                     <span className="text-sm text-foreground">{type.label}</span>
                   </label>
                 ))}

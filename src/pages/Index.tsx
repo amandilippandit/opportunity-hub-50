@@ -63,7 +63,6 @@ const Index = () => {
       <HeroSection
         searchQuery={searchQuery}
         onSearchChange={setSearchQuery}
-        totalOpportunities={opportunities.length}
       />
 
       <main className="container pb-16">
